@@ -3,7 +3,6 @@
     "description": "Displaying Nepali Calendar",
     "type": "library",
     "license": "MIT",
-    "keywords":[],
     "authors": [
         {
             "name": "Bibek Shrestha",
