@@ -1,8 +1,8 @@
 <?php
-namespace gas\calendar\helpers;
+namespace bibek\calendar\helpers;
 
 use Carbon\Carbon;
-use gas\calendar\Models\DateSetting;
+use bibek\calendar\Models\DateSetting;
 
 class DateHelper
 {       

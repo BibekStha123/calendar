@@ -5,7 +5,7 @@ $request = request();
 $session = $request->getSession();
 $todayDate = $session->get('today_date');
 
-$calendar = new gas\calendar\controllers\CalendarController();
+$calendar = new bibek\calendar\controllers\CalendarController();
 if($request->year == null || $request->month == null)
 {
     $calendarData = $calendar->index();
@@ -70,7 +70,7 @@ if($request->year == null || $request->month == null)
                             @endif
                         </div>
                         <div class="day_of_month {{isset($week_day['is_holiday']) ? 'calendar__holiday' : ''}}">
-                            <a class="day-{{ $week_day['day_number']}}" data-value="{{ $week_day['day_number'] }}">{{ gas\calendar\helpers\NepaliHelper::englishToNepali(isset($week_day['day_number']) ? $week_day['day_number'] : '') }}</a>
+                            <a class="day-{{ $week_day['day_number']}}" data-value="{{ $week_day['day_number'] }}">{{ bibek\calendar\helpers\NepaliHelper::englishToNepali(isset($week_day['day_number']) ? $week_day['day_number'] : '') }}</a>
                         </div>
                         @if (isset($week_day['events']))
                             @foreach ($week_day['event_details'] as $events)

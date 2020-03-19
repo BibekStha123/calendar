@@ -1,6 +1,6 @@
 <?php
 
-namespace gas\calendar;
+namespace bibek\calendar;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -14,7 +14,7 @@ class CalendarServiceProvider extends ServiceProvider
     public function register()
     {
         //register your controller
-        // $this->app->make('gas\calendar\CalendarController');
+        // $this->app->make('bibek\calendar\CalendarController');
     }
 
     /**
@@ -27,7 +27,7 @@ class CalendarServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__.'/database/migrations');
         $this->loadViewsFrom(__DIR__.'/views', 'calendar');
 
-        $this->app->register('gas\calendar\CalendarRouteServiceProvider');
+        $this->app->register('bibek\calendar\CalendarRouteServiceProvider');
         require __DIR__.'/routes.php';
 
         $this->publishes([

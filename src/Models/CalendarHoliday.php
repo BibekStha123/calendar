@@ -1,6 +1,6 @@
 <?php
 
-namespace gas\calendar\Models;
+namespace bibek\calendar\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

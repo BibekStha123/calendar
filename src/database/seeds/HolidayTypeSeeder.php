@@ -1,6 +1,6 @@
 <?php
 
-namespace gas\calendar\Database\Seeds;
+namespace bibek\calendar\Database\Seeds;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;

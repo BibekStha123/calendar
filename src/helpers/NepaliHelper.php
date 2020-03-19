@@ -1,6 +1,6 @@
 <?php
 
-namespace gas\calendar\helpers;
+namespace bibek\calendar\helpers;
 
 class NepaliHelper
 {       

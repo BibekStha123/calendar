@@ -1,12 +1,12 @@
 <?php
-namespace gas\calendar;
+namespace bibek\calendar;
 
 use App\Providers\RouteServiceProvider;
 use Illuminate\Support\Facades\Route;
 
 class CalendarRouteServiceProvider extends RouteServiceProvider
 {
-    protected $namespace='gas\calendar';
+    protected $namespace='bibek\calendar';
 
     public function boot()
     {

@@ -1,9 +1,9 @@
 <?php
 
-namespace gas\calendar\Database\Seeds;
+namespace bibek\calendar\Database\Seeds;
 
 use Illuminate\Database\Seeder;
-use gas\calendar\Models\DateSetting;
+use bibek\calendar\Models\DateSetting;
 
 class DateSettingSeeder extends Seeder
 {

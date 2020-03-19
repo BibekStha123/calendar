@@ -1,5 +1,5 @@
 {
-    "name": "gas/calendar",
+    "name": "bibek/calendar",
     "description": "Displaying Nepali Calendar",
     "type": "project",
     "license": "MIT",
@@ -19,14 +19,14 @@
     },
     "autoload": {
         "psr-4": {
-          "gas\\calendar\\": "src/",
-          "gas\\calendar\\Database\\Seeds": "database/seeds/"
+          "bibek\\calendar\\": "src/",
+          "bibek\\calendar\\Database\\Seeds": "database/seeds/"
         }
       },
     "extra": {
         "laravel": {
             "providers": [
-                "gas\\calendar\\CalendarServiceProvider"
+                "bibek\\calendar\\CalendarServiceProvider"
             ]
         }
     }

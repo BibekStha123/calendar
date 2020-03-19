@@ -1,14 +1,14 @@
 <?php
 
-namespace gas\calendar\controllers;
+namespace bibek\calendar\controllers;
 
 use Carbon\Carbon;
 use App\Models\DateSetting;
 use Illuminate\Http\Request;
-use gas\calendar\Models\Event;
+use bibek\calendar\Models\Event;
 use App\Http\Controllers\Controller;
-use gas\calendar\helpers\DateHelper;
-use gas\calendar\Models\CalendarHoliday;
+use bibek\calendar\helpers\DateHelper;
+use bibek\calendar\Models\CalendarHoliday;
 
 
 class CalendarController extends Controller

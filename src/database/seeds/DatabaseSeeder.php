@@ -1,9 +1,9 @@
 <?php
 
-namespace gas\calendar\Database\Seeds;
+namespace bibek\calendar\Database\Seeds;
 
-use gas\calendar\Database\Seeds\DateSettingSeeder;
-use gas\calendar\Database\Seeds\HolidayTypeSeeder;
+use bibek\calendar\Database\Seeds\DateSettingSeeder;
+use bibek\calendar\Database\Seeds\HolidayTypeSeeder;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
