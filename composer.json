@@ -1,7 +1,7 @@
 {
     "name": "bibek/calendar",
     "description": "Displaying Nepali Calendar",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "keywords":[],
     "authors": [
